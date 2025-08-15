@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Jawapan</title>
+</head>
+<body>
+   <div class="content"></div>
+        <h1>Selamat datang ke website ujian lisan mendengar RIO</h1>
+        <h2>Jawapan:</h2>
+        <p>1.menamatkan persekolahan</p>
+        <p>2.<ul>
+            <ol>i)semangat perpaduan</ol>
+            <ol>ii)semangat perpaduan kaum</ol>
+            <ol>iii)perwatakan positif</ol>
+        </ul></p>
+        <p>3.pembinaan sahsiah diri;perpaduan kaum</p>
+        <p>4.D</p>
+
+        <script>
+    // Disable right-click
+    document.addEventListener('contextmenu', function(e) {
+      e.preventDefault();
+    });
+
+    // Disable common keyboard shortcuts
+    document.addEventListener('keydown', function(e) {
+      if ((e.ctrlKey && e.key === 'c') ||
+          (e.ctrlKey && e.key === 'u') ||
+          (e.ctrlKey && e.key === 's') ||
+          (e.ctrlKey && e.key === 'a')) {
+        e.preventDefault();
+      }
+    });
+
+    document.addEventListener('keydown', function(e) {
+    if (e.key === "PrintScreen") {
+      navigator.clipboard.writeText("Screenshots are disabled on this page");
+      alert("Screenshots are disabled.");
+    }
+  });
+</script>
+</body>
+</html>

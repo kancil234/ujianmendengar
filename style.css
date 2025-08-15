@@ -1,0 +1,63 @@
+body{
+    background-color: black;
+}
+
+   body::before {
+      content: "RIO LEARNING HUB";
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%) rotate(-30deg);
+      font-size: 100px;
+      color: rgba(255, 255, 255, 0.594);
+      z-index: 0;
+      pointer-events: none;
+      user-select: none;
+      white-space: nowrap;
+    }
+
+h1{
+    color: aliceblue;
+    background-color: green;
+    width: 60%;
+    margin-top: 30px;
+}
+
+h2{
+    color: aliceblue;
+}
+
+button{
+    margin: 30px;
+    padding: 20px;
+    width: 20%;
+    background-color: rgb(255, 210, 127);
+    font-size: 30px;
+    border-radius: 20px;
+    display: block;
+}
+
+button:hover{
+    cursor: pointer;
+    padding: 30px;
+    background-color: antiquewhite;
+}
+
+p{
+    color: aliceblue;
+}
+
+ul{
+    color: aliceblue;
+}
+
+li{
+    color: aliceblue;
+}
+
+
+.content {
+      position: relative;
+      z-index: 1;
+      padding: 40px;
+ }

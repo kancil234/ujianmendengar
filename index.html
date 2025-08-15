@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Latihan Bonus-Ujian Mendengar</title>
+</head>
+<body>
+   <div class="content"></div>
+    <h1>Selamat datang ke website ujian lisan mendengar RIO</h1>
+    <h2>Di bawah adalah contoh bahan 1:</h2>
+    <img src="bahan1.jpg" alt="" height="800">
+    <br>
+    <audio controls>
+  <source src="Track5.mp3" type="audio/mpeg">
+</audio>
+<button onclick="window.location.href='answer.html'">Jawapan</button>
+
+<script>
+    // Disable right-click
+    document.addEventListener('contextmenu', function(e) {
+      e.preventDefault();
+    });
+
+    // Disable common keyboard shortcuts
+    document.addEventListener('keydown', function(e) {
+      if ((e.ctrlKey && e.key === 'c') ||
+          (e.ctrlKey && e.key === 'u') ||
+          (e.ctrlKey && e.key === 's') ||
+          (e.ctrlKey && e.key === 'a')) {
+        e.preventDefault();
+      }
+    });
+
+    document.addEventListener('keydown', function(e) {
+    if (e.key === "PrintScreen") {
+      navigator.clipboard.writeText("Screenshots are disabled on this page");
+      alert("Screenshots are disabled.");
+    }
+  });
+</script>
+    
+</body>
+</html>
