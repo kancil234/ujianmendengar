@@ -3,7 +3,7 @@ body{
 }
 
    body::before {
-      content: "RIO LEARNING HUB";
+      content: "Created By Riordain";
       position: fixed;
       top: 50%;
       left: 50%;
@@ -60,4 +60,5 @@ li{
       position: relative;
       z-index: 1;
       padding: 40px;
+
  }
